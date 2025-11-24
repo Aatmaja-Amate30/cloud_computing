@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <style>
+      .card {
+        background-color: hsl(278, 22%, 17%);
+        border-radius: 5px;
+        width: 400px;
+        padding: 20px;
+      }
+
+      h2 {
+        color: beige;
+        text-align: center;
+      }
+
+      body {
+        background-color: #858585;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+      }
+
+      form {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .copy {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+      }
+
+      input {
+        padding: 10px;
+        margin: 7px;
+        align-items: center;
+        background-color: #f5d4d4;
+        border-radius: 5px;
+      }
+
+      button {
+        padding: 10px;
+        margin: 7px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #8eb6eb;
+        border-radius: 10px;
+      }
+      button:hover {
+        background-color: #31acef;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <h2>Login</h2>
+      <form>
+        <input type="email" placeholder="Email" />
+        <div class="copy">
+          <input type="text" placeholder=" First name" />
+          <input type="text" name="" id="" placeholder="Last name" />
+        </div>
+        <input type="password" name="" id="" placeholder="Password" />
+        <button type="submit">Sign Up</button>
+      </form>
+    </div>
+  </body>
+</html>
